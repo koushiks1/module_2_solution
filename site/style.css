@@ -3,7 +3,7 @@
     padding: 10px;
 }
 
- div#content {
+ div.content {
  	background-color: grey;
  	border: 1px solid black;
  	width: 95%;
@@ -14,8 +14,7 @@
  	font-family: Segoe UI;
  	font-weight: 500;
  }
- #title {
- 	background-color: orange;
+ .title {
     font-family: fantasy;
     border: 1px solid black;
     width: 75px;
@@ -29,7 +28,18 @@
     right: -1px;
     font-size: 1.25em;
  }
-
+.t1 {
+    background-color: orange;
+    color: black;    
+}
+.t2 {
+    background-color: rgb(100,0,20);
+    color: gold;
+}
+.t3 {
+    background-color: purple;
+    color: #fff;
+}
  h1 {
  	text-align: center;
  	color: maroon;
