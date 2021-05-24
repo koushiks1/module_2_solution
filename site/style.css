@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+    padding: 10px;
+}
+
+ div#content {
+ 	background-color: grey;
+ 	border: 1px solid black;
+ 	width: 95%;
+ 	margin-left: auto;
+ 	margin-right: auto;;
+ 	position: relative;
+ 	font-size: 15px;
+ 	font-family: Segoe UI;
+ 	font-weight: 500;
+ }
+ #title {
+ 	background-color: orange;
+    font-family: fantasy;
+    border: 1px solid black;
+    width: 75px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    float: right;
+    top: -1px;
+    right: -1px;
+    font-size: 1.25em;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	color: maroon;
+ 	font-style: italic;
+    font-family: fantasy;
+    font-size: 1.75em;
+    text-decoration: underline;
+ }
+.row {
+  width: 100%;
+}
+@media (min-width: 992px) {
+.col-lg-4 {
+	width: 33.33%;
+	float: left;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+}
